@@ -1,0 +1,10 @@
+CREATE TABLE `registration` (
+  `id`       int(45)    unsigned  NOT NULL AUTO_INCREMENT,
+  `firstname`     varchar(30) NOT NULL ,
+`lastname`     varchar(30) NOT NULL ,
+  `email`    varchar(50) NOT NULL,
+`username`     varchar(30) NOT NULL,
+`password`     varchar(30) NOT NULL,
+
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
